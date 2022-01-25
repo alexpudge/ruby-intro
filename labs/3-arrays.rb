@@ -6,10 +6,23 @@
 # Create a "shared" shopping list with a friend
 # Create two data structures - one for your list of stuff, and one
 # for your friend, e.g. you want milk, eggs, and bacon, and
+mylist = ["milk", "eggs", "bacon"]
+puts mylist.inspect
+
 # your friend wants beer, cookies, and apples.
+friendlist = ["beer", "cookies", "apples"]
+puts friendlist.inspect
+
 # Programmatically combine the two arrays into a single list,
+ourlist = mylist + friendlist
+puts ourlist.inspect
+
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
+
+ourlist.sort!
+puts ourlist.inspect
+
 
 # HINTS
 # Learn to read the documentation!
